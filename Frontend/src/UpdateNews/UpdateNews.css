@@ -1,0 +1,42 @@
+.updatebyid {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 150vh;
+    background-color:rgb(250, 210, 237);
+
+}
+.tabs form{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    width: 280px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.headed {
+    color: rgb(10, 7, 179);
+    text-align: center;
+}
+.butts button{
+
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color:royalblue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+input{
+    padding: 2px;
+    margin: 3px 0px;
+}
+label{
+    font-size: 15px;
+    color: rgb(87, 86, 86);
+}

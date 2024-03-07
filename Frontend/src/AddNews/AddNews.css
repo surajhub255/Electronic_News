@@ -1,0 +1,43 @@
+
+.addnews {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 150vh;
+    background-color:rgb(250, 210, 217);
+
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    width: 280px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(77,1,77);
+    text-align: center;
+}
+button{
+
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+input{
+    padding: 2px;
+    margin: 3px 0px;
+}
+label{
+    font-size: 15px;
+    color: rgb(87, 86, 86);
+}

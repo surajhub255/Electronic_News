@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+}
+.Card{
+    margin: 10px;
+}
+
+.home{
+    display: flex;
+}
+
+.left{
+    float: left;
+    /* width: 30%; */
+    /* width: fit-content(20em); */
+    width: 22em;
+    background-color: rgb(148, 155, 155);
+    height: 100 rem;
+    padding: 30px 0px;
+    /* margin-left: -80px;     */
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+.ul li{
+    display: block;
+    color: white;
+    background-color: rgb(50, 50, 116);
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+.ul li:hover    {
+    background-color: #111;
+}
+/* .ul li:active{
+    background-color: gray;
+} */
+
+/* .ul li:focus{
+    background-color: rgb(238, 3, 3);
+} */
+
+.side-head{
+    padding: 4px 10px;
+}
+
+/* 
+.mid{
+    float: right;
+
+} */
+
+/* .mid1{
+    float: left;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 40px;
+} */
+
+.Card{
+    float: left;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.A{
+    background-color: aqua;
+    color: yellow;
+}
